@@ -1,0 +1,19 @@
+# Python Environments
+venv/
+env/
+.env/
+__pycache__/
+*.pyc
+
+# Deep Learning & Data
+data/
+model_weights/
+*.pth
+*.csv
+*.zip
+*.pdf
+chroma_db/
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
