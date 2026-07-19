@@ -28,12 +28,12 @@ class MyLSTMCell(nn.Module):  # custom cell
         c = torch.zeros(bs, self.h_size, device=dev)
         return h, c
 
-class MyLSTMLayer(nn.Module):  # unroll loop
-    def __init__(self, inp, hid, drop_p=0.0):
+class MyLSTMLayer(nn.Module):
+    def __init__(self, inp, hid, dropout=0.0):
         super().__init__()
         self.h = hid
         self.c = MyLSTMCell(inp, hid)
-        self.drop = nn.Dropout(p=drop_p)  # dropout logic
+        self.drop = nn.Dropout(p=dropout)  # dropout logic
 
     def forward(self, x, state=None):
         bs, slen, _ = x.shape
@@ -58,7 +58,7 @@ class LSTMStack(nn.Module):  # layer wrapper
         for i in range(nl):  # loop layers
             cur_in = in_sz if i == 0 else h_sz
             d = dp if i < nl - 1 else 0.0
-            layrs.append(MyLSTMLayer(cur_in, h_sz, dropout=d))
+            layrs.append(MyLSTMLayer(cur_in, h_sz))
         self.lyrs = nn.ModuleList(layrs)  # register layers
 
     def forward(self, x):  # pass through

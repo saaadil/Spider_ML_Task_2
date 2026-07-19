@@ -1,0 +1,288 @@
+EXAMPLE QUERIES AND OUTPUTS
+Healthcare Information Assistant
+
+Example 1
+Question : What lifestyle changes help manage hypertension?
+Safe : Yes
+Answer : To manage hypertension, it is recommended to make one healthy lifestyle change at a time and add another change when you feel that you have successfully adopted the earlier changes. Practicing several healthy lifestyle habits can help lower blood pressure and maintain normal blood pressure readings.
+
+Some specific lifestyle changes that can help manage hypertension include:
+
+1. Healthy Eating: Following a balanced diet that is low in added sugars, solid fats, and refined grains, and high in fruits, vegetables, whole grains, and other heart-healthy foods.
+2. Physical Activity: Engaging in regular physical activity for at least 30 minutes per day, such as walking, jogging, cycling, or swimming.
+
+It's also important to note that making lifestyle changes can help prevent hypertension from occurring, reverse prehypertension, and control existing high blood pressure, while also preventing complications and long-term problems associated with this condition.
+Confidence : 0.6579 (medium)
+Sources (5 retrieved):
+  [1] MedQuAD | High Blood Pressure (relevance=0.659)
+      ng with stress
+                
+To help make lifelong lifestyle changes, try making one healthy lifestyle change at a ti...
+  [2] MedQuAD | Heart Disease in Women (relevance=0.657)
+      Hypertension (DASH) eating plan can lower blood pressure.
+                
+Try to avoid foods and drinks that are high i...
+  [3] MedQuAD | Polycystic Kidney Disease (relevance=0.657)
+      or certain diet changes.
+                
+Following a healthy eating plan can help lower blood pressure. A health care p...
+  [4] MedQuAD | High Blood Pressure (relevance=0.657)
+      iet (Dietary Approaches to Stop Hypertension) can help with blood pressure control. Follow a healthy eating plan like DA...
+  [5] MedQuAD | High Blood Pressure (relevance=0.652)
+      only can healthy lifestyle habits prevent high blood pressure from occurring, but they can reverse prehypertension and h...
+
+Example 2
+Question : What are the symptoms of type 2 diabetes?
+Safe : Yes
+Answer : The symptoms of type 2 diabetes include:
+
+- Being very thirsty
+- Urinating often
+- Feeling very hungry or tired
+- Losing weight without trying
+- Having sores that heal slowly
+- Having dry, itchy skin
+- Loss of feeling or tingling in the feet
+- Blurry eyesight
+
+Some people with type 2 diabetes may not notice any symptoms at all.
+Confidence : 0.7472 (medium)
+Sources (5 retrieved):
+  [1] MedQuAD | Your Guide to Diabetes: Type 1 and Type 2 (relevance=0.797)
+      Question: What are the symptoms of Your Guide to Diabetes: Type 1 and Type 2 ?
+Answer: The signs and symptoms of diabete...
+  [2] MedQuAD | Diabetes Type 2 (relevance=0.723)
+      gums and teeth.    You have a higher risk of type 2 diabetes if you are older, obese, have a family history of diabetes,...
+  [3] MedQuAD | Diabetes (relevance=0.722)
+      re: - being very thirsty  - frequent urination  - feeling very hungry or tired  - losing weight without trying  - having...
+  [4] MedQuAD | I Can Lower My Risk for Type 2 Diabetes: A Guide for American Indians (relevance=0.696)
+      Question: What are the symptoms of I Can Lower My Risk for Type 2 Diabetes: A Guide for American Indians ?
+Answer: Many ...
+  [5] MedQuAD | Diabetes (relevance=0.687)
+      Question: What are the symptoms of Diabetes ?
+Answer: Many people with diabetes experience one or more symptoms, includi...
+
+Example 3
+Question : How is asthma treated?
+Safe : Yes
+Answer : According to the retrieved medical context, asthma treatment aims to control the disease and prevent chronic and troublesome symptoms such as coughing and shortness of breath. The goal of asthma treatment is to:
+
+- Prevent chronic and troublesome symptoms
+- Reduce your need for quick-relief medicines
+- Help you maintain good lung function
+- Allow you to maintain your normal activity level and sleep through the night
+
+Additionally, an asthma action plan can be created and followed to guide proper medicine use, avoid triggers (except physical activity), track asthma control levels, respond to worsening symptoms, and seek emergency care when needed.
+Confidence : 0.7568 (high)
+Sources (5 retrieved):
+  [1] MedQuAD | Asthma (relevance=0.797)
+      to prevent asthma symptoms and attacks, go to "How Is Asthma Treated and Controlled?"...
+  [2] MedQuAD | Asthma (relevance=0.739)
+      s.
+                
+At the hospital, you'll be closely watched and given oxygen and more medicines, as well as medicines...
+  [3] MedQuAD | Asthma (relevance=0.735)
+      led an asthma attack. Severe asthma attacks may require emergency care, and they can be fatal.    Asthma is treated with...
+  [4] MedQuAD | Asthma (relevance=0.708)
+      Question: What are the treatments for Asthma ?
+Answer: Asthma is a long-term disease that has no cure. The goal of asthm...
+  [5] MedQuAD | Asthma (relevance=0.688)
+      reate and follow an asthma action plan.
+                
+An asthma action plan gives guidance on taking your medicines p...
+
+Example 4
+Question : What is the recommended diet for high cholesterol?
+Safe : Yes
+Answer : Based on the retrieved medical context, a heart-healthy diet for managing high cholesterol should include:
+
+* Vegetables, such as broccoli, cabbage, and carrots
+* Whole grains, such as oatmeal, brown rice, and corn tortillas
+* Legumes, such as lima beans
+* Fruits, which are not explicitly mentioned in the context but generally recommended
+
+It is also recommended to avoid or limit:
+
+* A lot of red meat
+* Palm and coconut oils
+* Sugary foods and beverages
+* Foods high in saturated fat, especially those that come from animals
+* Trans fat (trans fatty acids), found in foods made with hydrogenated oils and fats, such as stick margarine; baked goods, such as cookies, cakes, and pies; crackers; frostings; and other processed snacks.
+
+It is essential to consult a qualified healthcare professional or registered dietitian to determine the best diet plan for individual needs and health goals.
+Confidence : 0.6930 (medium)
+Sources (5 retrieved):
+  [1] MedQuAD | Diabetes, Heart Disease, and Stroke (relevance=0.713)
+      y products with fat, shortening, lard, and tropical oils such as palm and coconut oil. Your dietitian can figure out how...
+  [2] MedQuAD | Metabolic Syndrome (relevance=0.684)
+      a beans
+                
+Vegetables, such as broccoli, cabbage, and carrots
+                
+Whole grains, such as oatme...
+  [3] MedQuAD | Coronary Microvascular Disease (relevance=0.682)
+      d lima beans
+                
+Vegetables, such as broccoli, cabbage, and carrots
+                
+Whole grains, such as ...
+  [4] MedQuAD | Atherosclerosis (relevance=0.681)
+      cabbage, and carrots
+                
+Whole grains, such as oatmeal, brown rice, and corn tortillas
+                
+Whe...
+  [5] MedQuAD | Sudden Cardiac Arrest (relevance=0.680)
+      diet, you should avoid eating:
+                
+A lot of red meat
+                
+Palm and coconut oils
+               ...
+
+Example 5
+Question : What are the common side effects of ibuprofen?
+Safe : Yes
+Answer : According to MedQuAD, common side effects of NSAIDs (including ibuprofen) include:
+
+- stomach upset
+- nausea
+- vomiting
+- diarrhea
+- abdominal pain
+- dizziness
+- ringing in the ears
+- rash
+- itching
+- hives
+- skin reactions
+Confidence : 0.5063 (medium)
+Sources (5 retrieved):
+  [1] MedQuAD | Diabetic Kidney Disease (relevance=0.513)
+      - appetite loss  - nausea  - vomiting  - drowsiness, or feeling tired  - trouble concentrating  - sleep problems  - incr...
+  [2] MedQuAD | Kidney Disease (relevance=0.511)
+      nes that affect the kidney or are removed by the kidney. You may need to take some medicines in smaller amounts or less ...
+  [3] MedQuAD | Gastritis (relevance=0.495)
+      Aspirin and ibuprofen are common types of NSAIDs.  - drinking alcohol.  - using cocaine.  - exposure to radiation or hav...
+  [4] MedQuAD | Extragonadal Germ Cell Tumors (relevance=0.477)
+      ever.    - Headache.    - Change in bowel habits.    - Feeling very tired.    - Trouble walking.    - Trouble in seeing ...
+  [5] MedQuAD | IgA Nephropathy (relevance=0.466)
+      ss  - appetite loss  - nausea  - vomiting  - sleep problems  - trouble concentrating  - darkened skin  - muscle cramps...
+
+Example 6
+Question : How do I know if I have a urinary tract infection?
+Safe : Yes
+Answer : To determine if you have a urinary tract infection (UTI), look for the following symptoms:
+
+- Cloudy, bloody, or foul-smelling urine
+- Pain or burning during urination
+- Strong and frequent need to urinate, even right after emptying the bladder
+- A mild fever below 101 degrees Fahrenheit in some people
+
+If you experience any of these symptoms, it is recommended that you consult with your healthcare provider for proper diagnosis and treatment.
+Confidence : 0.7290 (medium)
+Sources (5 retrieved):
+  [1] MedQuAD | Urinary Tract Infection In Adults (relevance=0.731)
+      Question: What are the symptoms of Urinary Tract Infection In Adults ?
+Answer: Symptoms of a UTI vary by age, gender, an...
+  [2] MedQuAD | Urinary Tract Infections (relevance=0.728)
+      Question: What are the symptoms of Urinary Tract Infections ?
+Answer: Symptoms of a urinary tract infection (UTI) in the...
+  [3] MedQuAD | Urinary Tract Infections (relevance=0.727)
+      have germs in your urine but you feel okay, talk to your health care provider about whether antibiotics -- the medicatio...
+  [4] MedQuAD | Urinary Tract Infections (relevance=0.724)
+      Question: What are the symptoms of Urinary Tract Infections ?
+Answer: Symptoms of a UTI in the bladder may include - clo...
+  [5] MedQuAD | Urinary Tract Infections (relevance=0.693)
+      Question: What is (are) Urinary Tract Infections ?
+Answer: The urinary system is the body's drainage system for removing...
+
+Example 7
+Question : What is the difference between type 1 and type 2 diabetes?
+Safe : Yes
+Answer : According to the retrieved medical context, the main difference between Type 1 and Type 2 diabetes is how the body produces or uses insulin.
+
+Type 1 diabetes is an autoimmune disease where the body's immune system attacks and destroys the cells in the pancreas that produce insulin. As a result, people with type 1 diabetes are unable to produce enough insulin, and they need to rely on insulin injections or an insulin pump to control their blood sugar levels.
+
+In contrast, Type 2 diabetes is characterized by the body's inability to effectively use insulin, often due to insulin resistance. This means that even if the pancreas is still producing insulin, it cannot efficiently deliver it to the cells, leading to high blood glucose levels.
+
+Both types of diabetes can lead to serious complications if left untreated or poorly managed, but the underlying causes and mechanisms are distinct between Type 1 and Type 2 diabetes.
+Confidence : 0.7664 (high)
+Sources (5 retrieved):
+  [1] MedQuAD | Diabetes (relevance=0.777)
+      f diabetes: type 1, type 2, and gestational diabetes. The result of type 1 and type 2 diabetes is the same: glucose buil...
+  [2] MedQuAD | Diabetes Type 2 (relevance=0.762)
+      Question: What is (are) Diabetes Type 2 ?
+Answer: Diabetes means your blood glucose, or blood sugar, levels are too high...
+  [3] MedQuAD | Your Guide to Diabetes: Type 1 and Type 2 (relevance=0.760)
+      Question: What is (are) Your Guide to Diabetes: Type 1 and Type 2 ?
+Answer: Prediabetes is when the amount of glucose in...
+  [4] MedQuAD | Your Guide to Diabetes: Type 1 and Type 2 (relevance=0.753)
+      Question: What is (are) Your Guide to Diabetes: Type 1 and Type 2 ?
+Answer: Diabetes is when your blood glucose, also ca...
+  [5] MedQuAD | Am I at Risk for Type 2 Diabetes? Taking Steps to Lower Your Risk of Getting Diabetes (relevance=0.742)
+      Question: What is (are) Am I at Risk for Type 2 Diabetes? Taking Steps to Lower Your Risk of Getting Diabetes ?
+Answer: ...
+
+Example 8
+Question : How is depression diagnosed and treated?
+Safe : Yes
+Answer : Depression can be diagnosed through a comprehensive evaluation by a qualified healthcare professional, which may include:
+
+* A physical examination
+* A review of your medical history
+* A mental health assessment
+* A review of your symptoms and their impact on daily life
+
+The diagnosis will involve determining the severity and type of depression, such as major depressive disorder or dysthymic disorder.
+
+Depression can be treated with a variety of therapies and interventions, including:
+
+* Psychotherapy (e.g., cognitive-behavioral therapy, interpersonal therapy)
+* Medications (e.g., antidepressants)
+* Lifestyle changes (e.g., regular exercise, healthy diet, stress management)
+* Support groups
+* Alternative therapies (e.g., mindfulness-based therapies)
+
+It's essential to work with a qualified healthcare professional to develop a personalized treatment plan that addresses your specific needs and circumstances.
+Confidence : 0.6094 (medium)
+Sources (5 retrieved):
+  [1] MedQuAD | Depression (relevance=0.634)
+      delivering treatment to those who are homebound, unable to move around without assistance, or who live in rural areas. (...
+  [2] MedQuAD | Depression (relevance=0.609)
+      Question: What is (are) Depression ?
+Answer: Major depressive disorder, also called major depression or clinical depress...
+  [3] MedQuAD | Depression (relevance=0.585)
+      ty, whether they have occurred before, and if so, whether they were treated and how. He or she will then diagnose the de...
+  [4] MedQuAD | Depression (relevance=0.581)
+      Question: What is (are) Depression ?
+Answer: Depression is a serious medical illness. It's more than just a feeling of b...
+  [5] MedQuAD | Depression (relevance=0.577)
+      - produce a quicker response to treatment  - develop new methods for delivering treatment to those who are homebound, un...
+
+Example 9
+Question : What vaccines are recommended for adults?
+Safe : Yes
+Answer : I cannot find sufficient information in my knowledge base to answer this question.
+Confidence : 0.6466 (medium)
+Sources (5 retrieved):
+  [1] MedQuAD (relevance=0.673)
+      les Meningococcal Mumps Pertussis (Whooping Cough) Pneumococcal Poliomyelitis (Polio) Rabies Rotavirus Rubella (German M...
+  [2] MedQuAD | Childhood Immunization (relevance=0.637)
+      od vaccines.    Although some of the vaccines you receive as a child provide protection for many years, adults need immu...
+  [3] MedQuAD | Childhood Immunization (relevance=0.629)
+      Question: Do you have information about Childhood Immunization
+Answer: Summary : Today, children in the United States ro...
+  [4] MedQuAD (relevance=0.617)
+      Question: how vaccines prevent disease
+Answer: Why Are Childhood Vaccines So Important? It is always better to prevent a...
+  [5] MedQuAD | Childhood Immunization (relevance=0.594)
+      help make you immune to serious diseases without getting sick first. Without a vaccine, you must actually get a disease ...
+
+Example 10
+Question : What are the early warning signs of a stroke?
+Safe : No - emergency
+Answer : This appears to describe a medical emergency. Please call emergency services (112 / 911) immediately or go to the nearest emergency room. Do not rely on an AI assistant in an emergency situation.
+Confidence : 0.0000 (blocked)
+Sources (0 retrieved):
+
